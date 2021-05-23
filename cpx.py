@@ -1,12 +1,8 @@
 from adafruit_circuitplayground.express import cpx
 import time
-
 BLUE = (0, 0, 255)
-
 i = 0
-
 while True:
-    # start your code here
     if i == 10:
         time.sleep(10)
         continue
